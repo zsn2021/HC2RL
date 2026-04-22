@@ -2,7 +2,12 @@
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
 
-### CARLA Supplementary Videos for the HC2RL Navigation Policy
+### Supplementary CARLA Video Demonstrations for the HC2RL Navigation Policy
+
+<p>
+  This page presents representative CARLA videos of the proposed <strong>HC2RL</strong> policy
+  in unsignalized-intersection navigation tasks under <strong>Scenario 1 (Random Navigation)</strong>.
+</p>
 
 </div>
 
@@ -10,11 +15,11 @@
 
 ## Overview
 
-This repository page presents supplementary CARLA video demonstrations for the proposed **HC2RL** navigation policy in unsignalized-intersection scenarios. The videos correspond to representative task executions under **Scenario 1 (Random Navigation)** and illustrate the policy behavior for different maneuver types and target lanes.
+This repository page provides supplementary CARLA video demonstrations for the proposed **HC2RL** navigation policy in unsignalized-intersection scenarios. The videos show representative task executions under **Scenario 1 (Random Navigation)** and illustrate the policy behavior across different maneuver types and target lanes.
 
 ---
 
-## Scenario Description
+## Scenario Setup
 
 ### Scenario 1: Random Navigation
 
@@ -27,11 +32,27 @@ Here, **L**, **S**, and **R** denote **left-turn**, **straight-going**, and **ri
 
 ---
 
+## Task Definitions
+
+To facilitate video browsing, the six navigation tasks are summarized as follows:
+
+| Task | Description |
+|------|-------------|
+| **L1** | Left turn to target lane 1 |
+| **L2** | Left turn to target lane 2 |
+| **S1** | Go straight to target lane 1 |
+| **S2** | Go straight to target lane 2 |
+| **R1** | Right turn to target lane 1 |
+| **R2** | Right turn to target lane 2 |
+
+---
+
 ## Supplementary Video Results
 
 The following videos provide representative CARLA demonstrations of the HC2RL policy for each navigation task.
 
-### L1 Task
+### L1 Task  
+**Left turn to target lane 1**
 
 <table>
   <tr>
@@ -46,7 +67,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
 </table>
 
-### L2 Task
+### L2 Task  
+**Left turn to target lane 2**
 
 <table>
   <tr>
@@ -61,7 +83,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
 </table>
 
-### R1 Task
+### R1 Task  
+**Right turn to target lane 1**
 
 <table>
   <tr>
@@ -76,7 +99,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
 </table>
 
-### R2 Task
+### R2 Task  
+**Right turn to target lane 2**
 
 <table>
   <tr>
@@ -91,7 +115,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
 </table>
 
-### S1 Task
+### S1 Task  
+**Go straight to target lane 1**
 
 <table>
   <tr>
@@ -106,7 +131,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
 </table>
 
-### S2 Task
+### S2 Task  
+**Go straight to target lane 2**
 
 <table>
   <tr>
@@ -120,3 +146,11 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
     </td>
   </tr>
 </table>
+
+---
+
+## Notes
+
+- All videos are collected in **Scenario 1 (Random Navigation)**.
+- Each task is illustrated with **two representative cases**.
+- The demonstrations are intended to qualitatively show the behavior of the proposed **HC2RL** policy under different navigation commands and traffic interactions.
