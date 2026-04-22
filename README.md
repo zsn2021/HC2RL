@@ -1,33 +1,37 @@
-<!-- File: README.md -->
-
 <div align="center">
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
 
-<p align="center">
-  <strong>CARLA Supplementary Videos</strong>
-</p>
+### CARLA Supplementary Videos for the HC2RL Navigation Policy
 
 </div>
 
 ---
 
-## HC2RL Navigation Policy
+## Overview
 
-### Scenario 1 (Random Navigation)
+This repository page presents supplementary CARLA video demonstrations for the proposed **HC2RL** navigation policy in unsignalized-intersection scenarios. The videos correspond to representative task executions under **Scenario 1 (Random Navigation)** and illustrate the policy behavior for different maneuver types and target lanes.
 
-The ego vehicle starts in a randomly selected entry lane with a dynamically sampled task:
+---
+
+## Scenario Description
+
+### Scenario 1: Random Navigation
+
+In this scenario, the ego vehicle starts from a randomly selected entry lane, and the navigation task is dynamically sampled according to the lane configuration:
 
 - **Lane 1**: `{L1, L2, S1}`
 - **Lane 2**: `{S2, R1, R2}`
 
-where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** maneuvers, respectively, and `1`, `2` indicate the **target lane IDs**.
+Here, `L`, `S`, and `R` denote **left-turn**, **straight-going**, and **right-turn** maneuvers, respectively, while `1` and `2` indicate the **target lane IDs**.
 
 ---
 
-## CARLA Supplementary Videos
+## Supplementary Video Results
 
-### L1
+The following videos provide representative CARLA demonstrations of the HC2RL policy for each navigation task.
+
+### L1 Task
 
 <table>
   <tr>
@@ -42,7 +46,7 @@ where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** m
   </tr>
 </table>
 
-### L2
+### L2 Task
 
 <table>
   <tr>
@@ -57,7 +61,7 @@ where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** m
   </tr>
 </table>
 
-### R1
+### R1 Task
 
 <table>
   <tr>
@@ -72,7 +76,7 @@ where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** m
   </tr>
 </table>
 
-### R2
+### R2 Task
 
 <table>
   <tr>
@@ -87,7 +91,7 @@ where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** m
   </tr>
 </table>
 
-### S1
+### S1 Task
 
 <table>
   <tr>
@@ -102,7 +106,7 @@ where `L`, `S`, and `R` denote **left-turn**, **straight**, and **right-turn** m
   </tr>
 </table>
 
-### S2
+### S2 Task
 
 <table>
   <tr>
