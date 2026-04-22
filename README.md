@@ -2,9 +2,6 @@
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
 
-### Supplementary CARLA Video Demonstrations for the HC2RL Navigation Policy
-
-
 </div>
 
 ---
@@ -24,7 +21,7 @@ In this scenario, the ego vehicle starts from a randomly selected entry lane, an
 - **Lane 1**: `{L1, L2, S1}`
 - **Lane 2**: `{S2, R1, R2}`
 
-Here, **L**, **S**, and **R** denote **left-turn**, **straight-going**, and **right-turn** maneuvers, respectively, while `1` and `2` indicate the **target lane IDs**.
+where **L**, **S**, and **R** denote **left-turn**, **straight-going**, and **right-turn** maneuvers, respectively, while `1` and `2` indicate the **target lane IDs**.
 
 ---
 
