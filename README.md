@@ -5,9 +5,9 @@
 <br>
 
 <span style="background:#e6f7ff;color:#1890ff;padding:4px 10px;border-radius:6px;margin:0 5px;">🚗 Unsignalized Intersection</span>
-<span style="background:#f0f2f5;color:#333;padding:4px 10px;border-radius:6px;margin:0 5px;">🔒 Constrained RL</span>
-<span style="background:#f6ffed;color:#52c41a;padding:4px 10px;border-radius:6px;margin:0 5px;">🛡️ HOCBF Safety Guarantee</span>
-<span style="background:#fff7e6;color:#faad14;padding:4px 10px;border-radius:6px;margin:0 5px;">🤖 Autonomous Navigation</span>
+<span style="background:#f0f2f5;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🤖 Constrained RL</span>
+<span style="background:#f6ffed;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🛡️ HOCBF Safety Guarantee</span>
+<span style="background:#fff7e6;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🧭 Autonomous Navigation</span>
 
 </div>
 
@@ -15,7 +15,7 @@
 
 ## Overview
 
-This repository page provides supplementary CARLA video demonstrations for the proposed **HC2RL** policy. The videos present representative executions of **different navigation tasks** at unsignalized intersections, illustrating the policy behavior under diverse navigation commands and traffic interactions.
+This repository page provides supplementary CARLA video demonstrations for the proposed **HC2RL** policy. The videos present representative executions of different navigation tasks at unsignalized intersections, illustrating the policy behavior under diverse navigation commands and traffic interactions.
 
 ---
 
