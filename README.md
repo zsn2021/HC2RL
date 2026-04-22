@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
@@ -46,46 +48,63 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
 
 ### L1 Task
 
+
+
+
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/35d1ffb8-5d6c-405a-a5e5-40e77f76159a" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/29e2488f-03e6-467f-8e09-2aac5b00ab12" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/1c41bbcd-3c3e-406b-a994-bb5d5c284b61" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/69e0ea0e-5f25-4372-8fa5-1a0dedbabaca" width="100%" controls></td>
   </tr>
 </table>
 
 ### L2 Task
 
+
+
+
+
+
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/c13250fe-a77b-43db-a125-9afb118209f4" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/f69b8c18-63e8-4357-952b-4a225199aa27" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/3586d7ce-151d-43ae-9658-dc8d5edc57ea" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/ce62480d-a2a1-4baf-a082-d754604a7e07" width="100%" controls></td>
   </tr>
 </table>
 
 ### R1 Task
 
+
+
+
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/b72711e2-1a39-4cf9-a34b-8f57ce94e205" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/8f78fb64-1881-4b70-bb9f-6ed701fc3547" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/89addb2d-0963-4d57-9d6f-a1d1898ad0ee" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/e12dac46-b6c9-4e3b-bb60-f95bb154f012" width="100%" controls></td>
   </tr>
 </table>
 
 ### R2 Task
 
+
+
+
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/063e9a32-7fad-4bc8-939d-be8701b9a6e3" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/a4b3dbe6-cd4a-404e-a66b-6790a2c27c36" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/d4d41586-f228-40f7-ad41-e78a818f3945" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/46b60a27-007c-4c7b-94ad-f73f560ff90e" width="100%" controls></td>
   </tr>
 </table>
 
 ### S1 Task
 
+
+
+
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/a44b787c-39d5-458b-aeef-43075ee79aca" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/a3de60c8-c679-4b2f-96a6-b51b8e86659c" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/a9ab5817-c9c3-4254-b271-53dde77a9e97" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/80d484a3-b819-42cc-84a5-202e2fa3720f" width="100%" controls></td>
   </tr>
 </table>
 
@@ -93,8 +112,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/cc6c4513-00d3-4277-b460-d94b94571474" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/588c40a7-8a4c-41ac-9b19-5d6f18b68779" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/44584bf3-4cd6-463d-bbda-31e22df6b9b1" width="100%" controls></td>
+    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/6737d752-f816-4ad3-9eee-5459103fecb8" width="100%" controls></td>
   </tr>
 </table>
 
