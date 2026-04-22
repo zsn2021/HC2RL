@@ -4,10 +4,6 @@
 
 ### Supplementary CARLA Video Demonstrations for the HC2RL Navigation Policy
 
-<p>
-  This page presents representative CARLA videos of the proposed <strong>HC2RL</strong> policy
-  in unsignalized-intersection navigation tasks under <strong>Scenario 1 (Random Navigation)</strong>.
-</p>
 
 </div>
 
