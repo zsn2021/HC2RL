@@ -27,7 +27,7 @@ The purpose of this comparison is to illustrate the role of the HOCBF-based safe
 
 ## Navigation Tasks
 
-To facilitate video browsing, the evaluated navigation tasks are summarized as follows:
+The descriptions of the evaluated navigation tasks are summarized as follows:
 
 | Task | Description |
 |------|-------------|
