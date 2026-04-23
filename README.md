@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/3419fbe0-fadc-4bd6-b110-ae3c2f8e0811
 <div align="center">
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
@@ -98,14 +100,28 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   <tr>
     <td align="center">HC2RL</td>
     <td align="center"><video src="https://github.com/user-attachments/assets/cbe8f6e3-e3a9-4a5d-82d0-56aa02263e6e" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/2d03691b-fd94-468d-966e-ef86ee572548" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/9290061e-f6d4-463e-bac9-20fd8c96ef9e" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/a48da0e7-b608-4685-bebf-55e6e18fe3a7" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/e416e12f-1911-4d6c-8451-d3052bd8a133" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/91b03aeb-86f0-45d5-9686-3f01a5490fa3" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/642bf19d-88f9-4112-b41a-1f62456d3421" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -130,10 +146,14 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/5d1e6438-4831-4bef-9d6b-6c582e3937cb" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/cfaf6a67-2ce5-4abe-bd97-921ca04b071c" width="100%" controls></td>
     <td align="center"><video src="https://github.com/user-attachments/assets/b415a51c-a86c-4b82-ab95-2ec39a1680df" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
 
 
 
