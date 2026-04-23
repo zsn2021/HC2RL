@@ -1,15 +1,14 @@
 
-https://github.com/user-attachments/assets/3419fbe0-fadc-4bd6-b110-ae3c2f8e0811
 <div align="center">
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
 
 <br>
 
-<span style="background:#e6f7ff;color:#1890ff;padding:4px 10px;border-radius:6px;margin:0 5px;">🚗 Unsignalized Intersection</span>
+<span style="background:#e6f7ff;color:#1890ff;padding:4px 10px;border-radius:6px;margin:0 5px;">🔀 Unsignalized Intersection</span>
+<span style="background:#f6ffed;color:#389e05;padding:4px 10px;border-radius:6px;margin:0 5px;">🚗Autonomous Navigation</span>
 <span style="background:#f0f2f5;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🤖 Constrained RL</span>
-<span style="background:#f6ffed;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🛡️ HOCBF Safety Guarantee</span>
-<span style="background:#fff7e6;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🧭 Autonomous Navigation</span>
+<span style="background:#fffbe6;color:#ad8b00;padding:4px 10px;border-radius:6px;margin:0 5px;">🛡️ HOCBF Safety Guarantee</span>
 
 </div>
 
@@ -17,7 +16,11 @@ https://github.com/user-attachments/assets/3419fbe0-fadc-4bd6-b110-ae3c2f8e0811
 
 ## Overview
 
-This repository page provides supplementary CARLA video demonstrations for the proposed **HC2RL** policy. The videos present representative executions of different navigation tasks at unsignalized intersections, illustrating the policy behavior under diverse navigation commands and traffic interactions.
+This repository page provides supplementary CARLA video demonstrations of **HC2RL (full)** and its comparison variant **HC2RL w/o SF** in unsignalized-intersection navigation tasks. The videos present representative executions under different navigation commands and traffic interactions.
+
+The purpose of this comparison is to qualitatively illustrate the role of the HOCBF-based safety filter in shaping the final navigation behavior. All policies are trained with **five random seeds**, namely **[0, 1, 2, 3, 4]**. To keep this page concise, only the evaluation videos of the policy trained with **random seed 0** are presented here. The complete quantitative evaluation results are reported in **Table II** and **Fig. 7** of the paper.
+
+where **HC2RL (full)** denotes the complete method, while **HC2RL w/o SF** denotes the corresponding variant without the HOCBF-based safety filter during execution.
 
 ---
 
@@ -38,7 +41,7 @@ To facilitate video browsing, the evaluated navigation tasks are summarized as f
 
 ## Supplementary Video Results
 
-The following videos provide representative CARLA demonstrations of the HC2RL policy performing different navigation tasks.
+The following videos provide representative CARLA demonstrations of **HC2RL (full)** and **HC2RL w/o SF** across different navigation tasks, with the aim of qualitatively comparing their navigation behaviors under the same task settings.
 
 ### Task L1 
 
@@ -122,15 +125,6 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
 
 
 
-
-
-
-
-
-
-
-
-
 ### Task R2 
 
 <table>
@@ -146,10 +140,14 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/cfaf6a67-2ce5-4abe-bd97-921ca04b071c" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/242673aa-9133-4d96-90fa-3ea1b3379dae" width="100%" controls></td>
     <td align="center"><video src="https://github.com/user-attachments/assets/b415a51c-a86c-4b82-ab95-2ec39a1680df" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
 
 
 
@@ -239,8 +237,6 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   
 ---
 
-## Notes
+## Conclusion
 
-- The videos show representative executions of **HC2RL** under different navigation tasks.
-- Each navigation task is illustrated with **two representative cases**.
-- These demonstrations are intended to qualitatively present the behavior of the proposed **HC2RL** policy across diverse navigation commands and traffic interactions.
+Compared with **HC2RL (full)**, **HC2RL w/o SF** shows more aggressive longitudinal behaviors and leads to collisions in some cases. These results demonstrate that the HOCBF-based safety filter plays an important role in maintaining safe and stable navigation behavior during both training and deployment.
