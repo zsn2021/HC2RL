@@ -42,56 +42,145 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/1c41bbcd-3c3e-406b-a994-bb5d5c284b61" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/69e0ea0e-5f25-4372-8fa5-1a0dedbabaca" width="100%" controls></td>
+    <th align="center" width="10%">Method</th>
+    <th align="center" width="40%">Case 1</th>
+    <th align="center" width="40%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/1c41bbcd-3c3e-406b-a994-bb5d5c284b61" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/69e0ea0e-5f25-4372-8fa5-1a0dedbabaca" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/0ab497b3-21a9-4f5f-9ce2-d1947bc97484" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4fb5a173-f0ec-4a98-a72a-54818ff30553" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
+
 
 ### Task L2 
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/3586d7ce-151d-43ae-9658-dc8d5edc57ea" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/ce62480d-a2a1-4baf-a082-d754604a7e07" width="100%" controls></td>
+    <th align="center" width="10%">Method</th>
+    <th align="center" width="45%">Case 1</th>
+    <th align="center" width="45%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/3586d7ce-151d-43ae-9658-dc8d5edc57ea" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/ce62480d-a2a1-4baf-a082-d754604a7e07" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/80e9d93a-4d32-48f7-9364-1cecaf0528de" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/6a654c79-1bd8-4acd-89a1-d84994b8757e" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
 
 ### Task R1 
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/89addb2d-0963-4d57-9d6f-a1d1898ad0ee" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/e12dac46-b6c9-4e3b-bb60-f95bb154f012" width="100%" controls></td>
+    <th align="center" width="10%">Method</th>
+    <th align="center" width="45%">Case 1</th>
+    <th align="center" width="45%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/89addb2d-0963-4d57-9d6f-a1d1898ad0ee" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e12dac46-b6c9-4e3b-bb60-f95bb154f012" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/a48da0e7-b608-4685-bebf-55e6e18fe3a7" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e416e12f-1911-4d6c-8451-d3052bd8a133" width="100%" controls></td>
   </tr>
 </table>
+
+
+
 
 ### Task R2 
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/d4d41586-f228-40f7-ad41-e78a818f3945" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/46b60a27-007c-4c7b-94ad-f73f560ff90e" width="100%" controls></td>
+    <th align="center" width="10%">Method</th>
+    <th align="center" width="45%">Case 1</th>
+    <th align="center" width="45%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/d4d41586-f228-40f7-ad41-e78a818f3945" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/46b60a27-007c-4c7b-94ad-f73f560ff90e" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/5d1e6438-4831-4bef-9d6b-6c582e3937cb" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/b415a51c-a86c-4b82-ab95-2ec39a1680df" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
+
+
 
 ### Task S1 
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/a9ab5817-c9c3-4254-b271-53dde77a9e97" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/80d484a3-b819-42cc-84a5-202e2fa3720f" width="100%" controls></td>
+    <th align="center" width="10%">Method</th>
+    <th align="center" width="45%">Case 1</th>
+    <th align="center" width="45%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/a9ab5817-c9c3-4254-b271-53dde77a9e97" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/80d484a3-b819-42cc-84a5-202e2fa3720f" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/efec26f0-53ab-49e4-843b-3ddd8e85ede4" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/1ba24bc4-7478-4b9c-afcd-c1fb79c373c1" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
 
 ### Task S2 
 
 <table>
   <tr>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/44584bf3-4cd6-463d-bbda-31e22df6b9b1" width="100%" controls></td>
-    <td align="center" width="50%"><video src="https://github.com/user-attachments/assets/6737d752-f816-4ad3-9eee-5459103fecb8" width="100%" controls></td>
+   <th align="center" width="10%">Method</th>
+    <th align="center" width="45%">Case 1</th>
+    <th align="center" width="45%">Case 2</th>
+  </tr>
+  <tr>
+    <td align="center">HC2RL</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/44584bf3-4cd6-463d-bbda-31e22df6b9b1" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/6737d752-f816-4ad3-9eee-5459103fecb8" width="100%" controls></td>
+  </tr>
+  <tr>
+    <td align="center">HC2RL w/o SF</td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/b7840303-1567-424e-b5f9-87620d212d14" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4cd8a666-b09b-4d17-9407-2db4b719664a" width="100%" controls></td>
   </tr>
 </table>
 
+  
 ---
 
 ## Notes
