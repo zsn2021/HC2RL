@@ -97,8 +97,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/89addb2d-0963-4d57-9d6f-a1d1898ad0ee" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/e12dac46-b6c9-4e3b-bb60-f95bb154f012" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/cbe8f6e3-e3a9-4a5d-82d0-56aa02263e6e" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/2d03691b-fd94-468d-966e-ef86ee572548" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
@@ -106,6 +106,9 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
     <td align="center"><video src="https://github.com/user-attachments/assets/e416e12f-1911-4d6c-8451-d3052bd8a133" width="100%" controls></td>
   </tr>
 </table>
+
+
+
 
 
 
@@ -120,8 +123,8 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/d4d41586-f228-40f7-ad41-e78a818f3945" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/46b60a27-007c-4c7b-94ad-f73f560ff90e" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/8c11c429-6f9e-40c8-b17a-641821a798ec" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4fc1dc51-1d9f-4014-9ab6-c3d07993b1eb" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
@@ -129,6 +132,21 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
     <td align="center"><video src="https://github.com/user-attachments/assets/b415a51c-a86c-4b82-ab95-2ec39a1680df" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
