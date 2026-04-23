@@ -18,7 +18,7 @@
 
 This repository page provides supplementary CARLA video demonstrations of **HC2RL (full)** and **HC2RL w/o SF** in unsignalized-intersection navigation tasks. The videos present representative executions under different navigation commands and traffic interactions.
 
-The purpose of this comparison is to illustrate the role of the HOCBF-based safety filter in shaping the final navigation behavior. In this page, only the evaluation videos of the policy trained with **random seed 0** are presented, while the comprehensive evaluation results aggregated over **five random seeds [0, 1, 2, 3, 4]** are reported in **Table II** and **Fig. 7** of the paper.
+The purpose of this comparison is to illustrate the role of the HOCBF-based safety filter in shaping the final navigation behavior. This page presents only the evaluation videos of the HC2RL navigation strategy trained with **random seed 0**, while the comprehensive evaluation results aggregated over **five random seeds [0, 1, 2, 3, 4]** are reported in **Table II** and **Fig. 7** of the paper.
 
 - **HC2RL (full)**: the complete HC2RL method with the HOCBF-based safety filter during execution.
 - **HC2RL w/o SF**: the corresponding variant without the HOCBF-based safety filter during execution.
