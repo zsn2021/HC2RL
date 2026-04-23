@@ -166,7 +166,7 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/6a699b50-73b3-43c9-b9cf-5ce835d84e57" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e588d805-350d-42b2-9976-7d21abf61df0" width="100%" controls></td>
     <td align="center"><video src="https://github.com/user-attachments/assets/b18478af-c1a7-4a28-91b4-2093f03eb4af" width="100%" controls></td>
   </tr>
   <tr>
@@ -175,6 +175,10 @@ The following videos provide representative CARLA demonstrations of the HC2RL po
     <td align="center"><video src="https://github.com/user-attachments/assets/1ba24bc4-7478-4b9c-afcd-c1fb79c373c1" width="100%" controls></td>
   </tr>
 </table>
+
+
+
+
 
 
 
