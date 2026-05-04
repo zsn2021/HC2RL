@@ -1,6 +1,6 @@
 <div align="center">
 
-# HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
+# HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Navigation Strategy at Unsignalized Intersections
 
 <br>
 
