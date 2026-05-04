@@ -1,6 +1,3 @@
-
-https://github.com/user-attachments/assets/02a8e728-0d95-411f-916c-17d387f8d982
-
 <div align="center">
 
 # HC2RL: HOCBF-Informed Constrained Reinforcement Learning for Safety-Aware Autonomous Navigation at Unsignalized Intersections
@@ -12,11 +9,9 @@ https://github.com/user-attachments/assets/02a8e728-0d95-411f-916c-17d387f8d982
 <span style="background:#f0f2f5;color:#0050b3;padding:4px 10px;border-radius:6px;margin:0 5px;">🤖 Constrained RL</span>
 <span style="background:#fffbe6;color:#ad8b00;padding:4px 10px;border-radius:6px;margin:0 5px;">🛡️ HOCBF Safety Guarantee</span>
 
-
 </div>
 
 ---
-
 
 ## Overview
 
@@ -31,7 +26,7 @@ These supplementary CARLA videos demonstrate the **longitudinal control behavior
 
 The descriptions of the evaluated navigation tasks are summarized as follows:
 
-| Task | Description |
+| Navigation Task | Description |
 |------|-------------|
 | **L1** | Left turn to target lane 1 |
 | **L2** | Left turn to target lane 2 |
@@ -44,7 +39,7 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
 
 ## Supplementary Video Results
 
-### Task L1 
+### Navigation Task L1 
 
 <table>
   <tr>
@@ -54,24 +49,20 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/ecdee224-31f1-4ea3-8241-a1a9debf8dca" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/82716765-f8d8-411f-a6c1-472c17f1a2ed" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/f9fa03dd-3f9d-4a21-b040-7d493cfbc4e8" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/078a4291-be77-4658-9396-92115f9b8bf1" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/18887717-7ead-46cb-be94-fc7155ebdbe5" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/343f282c-2c66-4b67-86f4-261e22775778" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/87688dde-a90a-4d18-9594-8c3cabf63fbc" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e1523602-771b-49ab-ab65-63b941884e18" width="100%" controls></td>
   </tr>
 </table>
 
 
 
 
-
-
-
-
-### Task L2 
+### Navigation Task L2 
 
 <table>
   <tr>
@@ -81,13 +72,13 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/c0bd0be8-6259-4758-93a7-52a760b67aa1" width="100%" controls></td>
-    <td align="center"><video src="" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/86765dd6-129c-4e02-a6b4-f65bb2e9c3aa" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e970a76f-44a3-4d9b-9983-3e914ffb6362" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/ba296a7d-f694-4df6-9fdd-f473f07d01d7" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/bd4f0cdf-6ced-4ed7-a15a-7875dac17c11" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/1ad89cd9-1748-4ad0-a948-0996ea0e71d9" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/728a653b-5aa9-4565-9bd1-0be24d2bc0b3" width="100%" controls></td>
   </tr>
 </table>
 
@@ -95,7 +86,7 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
 
 
 
-### Task S1 
+### Navigation Task S1 
 
 <table>
   <tr>
@@ -105,13 +96,13 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/fbc84e8b-08a6-4a37-9eff-283375d2cf06" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/b3fe3a3b-e0a5-4098-8ef5-90fdaae0154b" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/d6cd22e2-e6ab-4185-b34e-ca2f7c2b7333" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/ddeaeabd-afee-4d5b-9cdf-019744b7638c" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/2716ab40-4876-4aab-934c-533b9a17154e" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/b691e032-086e-4fb2-8d5d-aeb469ff540c" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/03bb4cce-527a-4705-b215-428669959f7e" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/ed2c7840-77a6-4571-8a05-231cda3fa1c9" width="100%" controls></td>
   </tr>
 </table>
 
@@ -119,9 +110,7 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
 
 
 
-
-
-### Task S2 
+### Navigation Task S2 
 
 <table>
   <tr>
@@ -131,13 +120,13 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/cb92538c-20c0-447f-9910-d056416241b3" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/ea6a0952-2b3d-4cbd-9eaf-ae0e37e5638f" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/d723d42d-56a7-405d-8da5-3afd9a49bf43" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4aa505d6-73a7-4e7f-a5f8-2c5490f11186" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/1c3881f8-25ca-457e-aeb8-05ca2d959fc0" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/0d67ea15-146d-4cf6-8c92-7d4921c35862" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/e30f448b-72fd-4ea3-890c-d925adf71370" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4377950d-a6de-4e14-a0d8-b1394194d47b" width="100%" controls></td>
   </tr>
 </table>
 
@@ -145,7 +134,13 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
 
 
 
-### Task R1 
+
+
+
+
+
+
+### Navigation Task R1 
 
 <table>
   <tr>
@@ -155,21 +150,19 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/06965ef3-5941-4d91-9ae8-8660004c0068" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/8b171830-0a30-4851-a937-11b3d08853bc" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/6c160ace-662a-4415-b462-f43d797fde9a" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/f62a7ae7-d5c3-4e8e-8b3c-31f62463a5ec" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/57e5ce80-722d-4de9-a6bc-9adb7e82428d" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/f0116a98-cff9-4de2-804d-b65e1e2b6475" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/c2c063bf-b500-4e52-b5cd-02ca606deb7b" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/4ee95311-b186-400d-ab6e-c3514caa7ac4" width="100%" controls></td>
   </tr>
 </table>
 
 
 
-
-
-### Task R2 
+### Navigation Task R2 
 
 <table>
   <tr>
@@ -179,20 +172,16 @@ The descriptions of the evaluated navigation tasks are summarized as follows:
   </tr>
   <tr>
     <td align="center">HC2RL</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/b2ef9d44-acf2-48b5-8d89-2aa56ee1ea0c" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/5b2faf59-c055-4d8a-94dd-a16341cd7b14" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/06d599bc-6eff-4b10-a6bd-6dda037a7fc4" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/92729fff-140b-4f28-8cce-b8a21cb08c2a" width="100%" controls></td>
   </tr>
   <tr>
     <td align="center">HC2RL w/o SF</td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/0ff79d46-050d-44b7-aa1f-15dc6186401e" width="100%" controls></td>
-    <td align="center"><video src="https://github.com/user-attachments/assets/cb83fa34-4e75-4530-b3c8-4e6c1790e8ff" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/1802ee62-e2ec-402c-9088-658f53e0cbba" width="100%" controls></td>
+    <td align="center"><video src="https://github.com/user-attachments/assets/c689473d-2fa3-47bf-9986-b2cd84ffcd37" width="100%" controls></td>
   </tr>
 </table>
 
-
-
-
-  
 ---
 
 ## Conclusion
