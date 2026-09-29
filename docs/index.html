@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Supplementary CARLA videos comparing HC2RL and HC2RL without safety filtering across six navigation tasks at an unsignalized intersection.">
+  <meta name="theme-color" content="#ffffff">
+  <title>HC2RL: Supplementary Videos</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#demonstrations">Skip to demonstrations</a>
+  <header class="hero">
+    <div class="title-row">
+      <img class="title-icon" src="./assets/icons/autonomous-driving.png" width="64" height="64" alt="">
+      <h1>HC2RL: Supplementary Videos</h1>
+    </div>
+    <p class="paper-title">HOCBF-Informed Constrained Reinforcement Learning for<br class="desktop-break"> Safety-Aware Navigation Strategy at Unsignalized Intersections</p>
+    <div class="topic-line"><span>🔀 Unsignalized intersections</span><span>🚗 Autonomous navigation</span><span>🛡️ HOCBF-based safety filtering</span></div>
+  </header>
+
+  <nav class="task-nav" aria-label="Navigation tasks">
+    <div class="nav-inner"><span class="nav-caption">Jump to task</span>
+        <a href="#l1" aria-label="L1: Left turn to target lane 1">L1</a>
+        <a href="#l2" aria-label="L2: Left turn to target lane 2">L2</a>
+        <a href="#s1" aria-label="S1: Go straight to target lane 1">S1</a>
+        <a href="#s2" aria-label="S2: Go straight to target lane 2">S2</a>
+        <a href="#r1" aria-label="R1: Right turn to target lane 1">R1</a>
+        <a href="#r2" aria-label="R2: Right turn to target lane 2">R2</a>
+    </div>
+  </nav>
+
+  <main id="demonstrations">
+    <header class="section-intro">
+      <p class="eyebrow">CARLA SIMULATION</p>
+      <h2>Evaluation at an Unsignalized Intersection</h2>
+      <p>Six navigation tasks. Two cases per task. A comparison of longitudinal driving behavior<br class="desktop-break"> with and without the HOCBF-based safety filter.</p>
+      <div class="method-legend">
+        <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL</strong> Full method</span>
+        <span><i class="dot without-sf-dot" aria-hidden="true"></i><strong>w/o SF</strong> Safety filter removed during execution</span>
+      </div>
+    </header>
+    <div class="playback-bar">
+      <p>Each video combines the intersection view, a traffic schematic, and 3D views.</p>
+      <label class="autoplay-control" hidden><input id="autoplay" type="checkbox"> Auto-play visible videos</label>
+    </div>
+      <section class="task-section" id="l1" aria-labelledby="l1-title">
+        <header class="task-heading">
+          <div><span class="section-index">01</span><h3 id="l1-title">Navigation Task L1</h3></div>
+          <p>Left turn to target lane 1</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/L1-Case1.jpg"
+              aria-label="L1, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/L1-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/L1-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/L1-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/L1-Case2.jpg"
+              aria-label="L1, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/L1-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/L1-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/L1-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/L1-Case1-noSF.jpg"
+              aria-label="L1, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/L1-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/L1-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/L1-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/L1-Case2-noSF.jpg"
+              aria-label="L1, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/L1-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/L1-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/L1-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="l2" aria-labelledby="l2-title">
+        <header class="task-heading">
+          <div><span class="section-index">02</span><h3 id="l2-title">Navigation Task L2</h3></div>
+          <p>Left turn to target lane 2</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/L2-Case1.jpg"
+              aria-label="L2, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/L2-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/L2-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/L2-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/L2-Case2.jpg"
+              aria-label="L2, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/L2-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/L2-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/L2-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/L2-Case1-noSF.jpg"
+              aria-label="L2, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/L2-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/L2-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/L2-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/L2-Case2-noSF.jpg"
+              aria-label="L2, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/L2-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/L2-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/L2-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="s1" aria-labelledby="s1-title">
+        <header class="task-heading">
+          <div><span class="section-index">03</span><h3 id="s1-title">Navigation Task S1</h3></div>
+          <p>Go straight to target lane 1</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/S1-Case1.jpg"
+              aria-label="S1, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/S1-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/S1-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/S1-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/S1-Case2.jpg"
+              aria-label="S1, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/S1-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/S1-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/S1-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/S1-Case1-noSF.jpg"
+              aria-label="S1, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/S1-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/S1-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/S1-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/S1-Case2-noSF.jpg"
+              aria-label="S1, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/S1-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/S1-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/S1-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="s2" aria-labelledby="s2-title">
+        <header class="task-heading">
+          <div><span class="section-index">04</span><h3 id="s2-title">Navigation Task S2</h3></div>
+          <p>Go straight to target lane 2</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/S2-Case1.jpg"
+              aria-label="S2, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/S2-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/S2-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/S2-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/S2-Case2.jpg"
+              aria-label="S2, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/S2-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/S2-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/S2-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/S2-Case1-noSF.jpg"
+              aria-label="S2, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/S2-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/S2-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/S2-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/S2-Case2-noSF.jpg"
+              aria-label="S2, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/S2-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/S2-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/S2-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="r1" aria-labelledby="r1-title">
+        <header class="task-heading">
+          <div><span class="section-index">05</span><h3 id="r1-title">Navigation Task R1</h3></div>
+          <p>Right turn to target lane 1</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/R1-Case1.jpg"
+              aria-label="R1, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/R1-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/R1-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/R1-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/R1-Case2.jpg"
+              aria-label="R1, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/R1-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/R1-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/R1-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/R1-Case1-noSF.jpg"
+              aria-label="R1, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/R1-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/R1-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/R1-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/R1-Case2-noSF.jpg"
+              aria-label="R1, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/R1-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/R1-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/R1-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="r2" aria-labelledby="r2-title">
+        <header class="task-heading">
+          <div><span class="section-index">06</span><h3 id="r2-title">Navigation Task R2</h3></div>
+          <p>Right turn to target lane 2</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl"><span>HC2RL</span><small>With safety filter</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/R2-Case1.jpg"
+              aria-label="R2, Case 1, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/R2-Case1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/R2-Case1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/R2-Case1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl/R2-Case2.jpg"
+              aria-label="R2, Case 2, HC2RL; intersection driving demonstration">
+              <source src="./assets/videos/hc2rl/R2-Case2.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl/R2-Case2.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl/R2-Case2.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <div class="method-label without-sf"><span>w/o SF</span><small>Without safety filter</small></div>
+          <article class="video-card without-sf case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/R2-Case1-noSF.jpg"
+              aria-label="R2, Case 1, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/R2-Case1-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/R2-Case1-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/R2-Case1-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card without-sf case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip without-sf">w/o SF</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/without-sf/R2-Case2-noSF.jpg"
+              aria-label="R2, Case 2, w/o SF; intersection driving demonstration">
+              <source src="./assets/videos/without-sf/R2-Case2-noSF.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/without-sf/R2-Case2-noSF.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/without-sf/R2-Case2-noSF.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+  </main>
+  <footer><strong>HC2RL</strong><span>Supplementary experimental demonstrations</span></footer>
+</body>
+</html>
