@@ -61,7 +61,7 @@
     });
   }
 
-  const sections = [...document.querySelectorAll('.task-section')];
+  const sections = [...document.querySelectorAll('.task-section, .notation-section')];
   const links = [...document.querySelectorAll('.task-nav a')];
   let scheduled = false;
   const updateNavigation = () => {

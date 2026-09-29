@@ -100,3 +100,14 @@ footer strong { color: #485a70; letter-spacing: 1px; }
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
+
+/* Notation table, placed after all video demonstrations. */
+.notation-section { margin: 0 0 56px; }
+.notation-figure { max-width: 1320px; margin: 28px auto 0; }
+.notation-figure img { display: block; width: 100%; height: auto; }
+@media (max-width: 640px) {
+  .nav-inner { gap: 2px; }
+  .nav-inner a { min-width: 0; padding: 0 7px; font-size: 12px; }
+  .notation-section { margin-bottom: 30px; }
+  .notation-figure { margin-top: 18px; }
+}
