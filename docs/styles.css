@@ -111,3 +111,13 @@ footer strong { color: #485a70; letter-spacing: 1px; }
   .notation-section { margin-bottom: 30px; }
   .notation-figure { margin-top: 18px; }
 }
+
+/* Additional evaluation group and navigation for both conditions. */
+.uncertainty-intro { border-top: 1px solid var(--line); margin-top: 12px; margin-bottom: 24px; }
+.method-label.hc2rl-mc > span { font-size: 14px; white-space: nowrap; }
+.nav-inner { overflow-x: auto; }
+.nav-inner a { flex-shrink: 0; white-space: nowrap; }
+@media (max-width: 900px) {
+  .nav-inner { justify-content: flex-start; }
+  .method-label.hc2rl-mc > span { font-size: 12px; }
+}

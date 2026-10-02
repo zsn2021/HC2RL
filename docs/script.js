@@ -61,14 +61,14 @@
     });
   }
 
-  const sections = [...document.querySelectorAll('.task-section, .notation-section')];
+  const sections = [...document.querySelectorAll('.section-intro[id], .task-section, .notation-section')];
   const links = [...document.querySelectorAll('.task-nav a')];
   let scheduled = false;
   const updateNavigation = () => {
     scheduled = false;
     let active = null;
     for (const section of sections) {
-      if (section.getBoundingClientRect().top < window.innerHeight * 0.45) active = section.id;
+      if (section.getBoundingClientRect().top < window.innerHeight * 0.45) active = section.dataset.navTarget || section.id;
     }
     for (const link of links) {
       if (link.hash === `#${active}`) link.setAttribute('aria-current', 'location');

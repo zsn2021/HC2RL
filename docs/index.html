@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Supplementary CARLA videos comparing HC2RL and HC2RL without safety filtering across six navigation tasks at an unsignalized intersection.">
+  <meta name="description" content="Supplementary CARLA videos: HC2RL and HC2RL without safety filtering under ideal state observability, and HC2RL-MC under perception or state-estimation uncertainty.">
   <meta name="theme-color" content="#ffffff">
   <title>HC2RL: Supplementary Videos</title>
   <link rel="stylesheet" href="./styles.css">
@@ -22,20 +22,22 @@
 
   <nav class="task-nav" aria-label="Page sections">
     <div class="nav-inner"><span class="nav-caption">Jump to</span>
+        <a href="#ideal-state">Ideal state</a>
         <a href="#l1" aria-label="L1: Left turn to target lane 1">L1</a>
         <a href="#l2" aria-label="L2: Left turn to target lane 2">L2</a>
         <a href="#s1" aria-label="S1: Go straight to target lane 1">S1</a>
         <a href="#s2" aria-label="S2: Go straight to target lane 2">S2</a>
         <a href="#r1" aria-label="R1: Right turn to target lane 1">R1</a>
         <a href="#r2" aria-label="R2: Right turn to target lane 2">R2</a>
+        <a href="#uncertainty">Uncertainty</a>
         <a href="#notation">Notation</a>
     </div>
   </nav>
 
   <main id="demonstrations">
-    <header class="section-intro">
+    <header class="section-intro" id="ideal-state">
       <p class="eyebrow">CARLA SIMULATION</p>
-      <h2>Evaluation at an Unsignalized Intersection</h2>
+      <h2>Evaluation under Ideal State Observability</h2>
       <p>Six navigation tasks. Two cases per task. A comparison of longitudinal driving behavior<br class="desktop-break"> with and without the HOCBF-based safety filter.</p>
       <div class="method-legend">
         <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL</strong> Full method</span>
@@ -370,9 +372,83 @@
         </div>
       </section>
 
+      <header class="section-intro uncertainty-intro" id="uncertainty">
+        <p class="eyebrow">CARLA SIMULATION · HC2RL-MC</p>
+        <h2>Evaluation under Perception or State-Estimation Uncertainty</h2>
+        <p>Two left-turn navigation tasks. Two cases per task.<br class="desktop-break"> Evaluated with HC2RL-MC under perception or state-estimation uncertainty.</p>
+        <div class="method-legend">
+          <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL-MC</strong> L1 and L2 under uncertainty</span>
+        </div>
+      </header>
+      <section class="task-section" id="uncertainty-l1" data-nav-target="uncertainty" aria-labelledby="uncertainty-l1-title">
+        <header class="task-heading">
+          <div><span class="section-index">07</span><h3 id="uncertainty-l1-title">Navigation Task L1</h3></div>
+          <p>Left turn to target lane 1</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl hc2rl-mc"><span>HC2RL-MC</span><small>Perception / state estimation</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL-MC</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl-mc/2085_L1_seed4_noise1.jpg"
+              aria-label="L1, Case 1, HC2RL-MC; perception or state-estimation uncertainty">
+              <source src="./assets/videos/hc2rl-mc/2085_L1_seed4_noise1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl-mc/2085_L1_seed4_noise1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl-mc/2085_L1_seed4_noise1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL-MC</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl-mc/2085_L1_seed6_noise1.jpg"
+              aria-label="L1, Case 2, HC2RL-MC; perception or state-estimation uncertainty">
+              <source src="./assets/videos/hc2rl-mc/2085_L1_seed6_noise1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl-mc/2085_L1_seed6_noise1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl-mc/2085_L1_seed6_noise1.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="task-section" id="uncertainty-l2" data-nav-target="uncertainty" aria-labelledby="uncertainty-l2-title">
+        <header class="task-heading">
+          <div><span class="section-index">08</span><h3 id="uncertainty-l2-title">Navigation Task L2</h3></div>
+          <p>Left turn to target lane 2</p>
+        </header>
+        <div class="comparison-grid">
+          <div class="grid-corner">Method</div>
+          <div class="case-heading case-1">Case 1</div>
+          <div class="case-heading case-2">Case 2</div>
+          <div class="method-label hc2rl hc2rl-mc"><span>HC2RL-MC</span><small>Perception / state estimation</small></div>
+          <article class="video-card hc2rl case-1">
+            <h4 class="mobile-label">Case 1 <span class="method-chip hc2rl">HC2RL-MC</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl-mc/2085_L2_seed4_noise1.jpg"
+              aria-label="L2, Case 1, HC2RL-MC; perception or state-estimation uncertainty">
+              <source src="./assets/videos/hc2rl-mc/2085_L2_seed4_noise1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl-mc/2085_L2_seed4_noise1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl-mc/2085_L2_seed4_noise1.mp4">Open the MP4 file</a>.</p>
+          </article>
+          <article class="video-card hc2rl case-2">
+            <h4 class="mobile-label">Case 2 <span class="method-chip hc2rl">HC2RL-MC</span></h4>
+            <video controls muted loop playsinline preload="none" width="1280" height="720"
+              poster="./assets/posters/hc2rl-mc/2085_L2_seed5_noise1.jpg"
+              aria-label="L2, Case 2, HC2RL-MC; perception or state-estimation uncertainty">
+              <source src="./assets/videos/hc2rl-mc/2085_L2_seed5_noise1.mp4" type="video/mp4">
+              Your browser does not support embedded video. <a href="./assets/videos/hc2rl-mc/2085_L2_seed5_noise1.mp4">Open the video</a>.
+            </video>
+            <p class="video-error" hidden>Video unavailable. <a href="./assets/videos/hc2rl-mc/2085_L2_seed5_noise1.mp4">Open the MP4 file</a>.</p>
+          </article>
+        </div>
+      </section>
+
       <section class="notation-section" id="notation" aria-labelledby="notation-title">
         <header class="task-heading">
-          <div><span class="section-index">07</span><h3 id="notation-title">Notation</h3></div>
+          <div><span class="section-index">09</span><h3 id="notation-title">Notation</h3></div>
           <p>Main symbols and their definitions</p>
         </header>
         <figure class="notation-figure">
