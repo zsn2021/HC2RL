@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Supplementary CARLA videos: HC2RL and HC2RL without safety filtering under ideal state observability, and HC2RL-MC under perception or state-estimation uncertainty.">
   <meta name="theme-color" content="#ffffff">
-  <title>HC2RL: Supplementary Videos</title>
+  <title>Supplementary Videos</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="./script.js" defer></script>
 </head>
@@ -14,10 +14,10 @@
   <header class="hero">
     <div class="title-row">
       <img class="title-icon" src="./assets/icons/autonomous-driving.png" width="64" height="64" alt="">
-      <h1>HC2RL: Supplementary Videos</h1>
+      <h1>Supplementary Videos</h1>
     </div>
-    <p class="paper-title">HOCBF-Informed Constrained Reinforcement Learning for<br class="desktop-break"> Safety-Aware Navigation Strategy at Unsignalized Intersections</p>
-    <div class="topic-line"><span>🔀 Unsignalized intersections</span><span>🚗 Autonomous navigation</span><span>🛡️ HOCBF-based safety filtering</span></div>
+    <p class="paper-title">HOCBF-Informed Constrained Reinforcement Learning with Adversarial Training for Safety-Aware and Robust Autonomous Navigation</p>
+    <div class="topic-line"><span><span aria-hidden="true">🚗</span> Autonomous navigation</span><span><span aria-hidden="true">🧠</span> constrained reinforcement learning</span><span><span aria-hidden="true">🛡️</span> control barrier functions</span><span><span aria-hidden="true">😈</span> adversarial training</span></div>
   </header>
 
   <nav class="task-nav" aria-label="Page sections">
@@ -30,13 +30,14 @@
         <a href="#r1" aria-label="R1: Right turn to target lane 1">R1</a>
         <a href="#r2" aria-label="R2: Right turn to target lane 2">R2</a>
         <a href="#uncertainty">Uncertainty</a>
+        <a href="#uncertainty-l1" aria-label="L1 under uncertainty: Left turn to target lane 1">L1</a>
+        <a href="#uncertainty-l2" aria-label="L2 under uncertainty: Left turn to target lane 2">L2</a>
         <a href="#notation">Notation</a>
     </div>
   </nav>
 
   <main id="demonstrations">
     <header class="section-intro" id="ideal-state">
-      <p class="eyebrow">CARLA SIMULATION</p>
       <h2>Evaluation under Ideal State Observability</h2>
       <p>Six navigation tasks. Two cases per task. A comparison of longitudinal driving behavior<br class="desktop-break"> with and without the HOCBF-based safety filter.</p>
       <div class="method-legend">
@@ -373,14 +374,13 @@
       </section>
 
       <header class="section-intro uncertainty-intro" id="uncertainty">
-        <p class="eyebrow">CARLA SIMULATION · HC2RL-MC</p>
         <h2>Evaluation under Perception or State-Estimation Uncertainty</h2>
-        <p>Two left-turn navigation tasks. Two cases per task.<br class="desktop-break"> Evaluated with HC2RL-MC under perception or state-estimation uncertainty.</p>
+        <p>Two left-turn navigation tasks. Two cases per task.<br class="desktop-break"> Evaluated with HC2RL-MC under truncated Gaussian noise perturbations.</p>
         <div class="method-legend">
-          <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL-MC</strong> L1 and L2 under uncertainty</span>
+          <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL-MC</strong></span>
         </div>
       </header>
-      <section class="task-section" id="uncertainty-l1" data-nav-target="uncertainty" aria-labelledby="uncertainty-l1-title">
+      <section class="task-section" id="uncertainty-l1" aria-labelledby="uncertainty-l1-title">
         <header class="task-heading">
           <div><span class="section-index">07</span><h3 id="uncertainty-l1-title">Navigation Task L1</h3></div>
           <p>Left turn to target lane 1</p>
@@ -413,7 +413,7 @@
         </div>
       </section>
 
-      <section class="task-section" id="uncertainty-l2" data-nav-target="uncertainty" aria-labelledby="uncertainty-l2-title">
+      <section class="task-section" id="uncertainty-l2" aria-labelledby="uncertainty-l2-title">
         <header class="task-heading">
           <div><span class="section-index">08</span><h3 id="uncertainty-l2-title">Navigation Task L2</h3></div>
           <p>Left turn to target lane 2</p>
