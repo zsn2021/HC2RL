@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Supplementary CARLA videos: HC2RL and HC2RL without safety filtering under ideal state observability, and HC2RL-MC under perception or state-estimation uncertainty.">
+  <meta name="description" content="Supplementary CARLA videos: HC2RL and HC2RL without safety filtering under ideal state observations, and HC2RL-MC under perturbed state observations.">
   <meta name="theme-color" content="#ffffff">
   <title>Supplementary Videos</title>
   <link rel="stylesheet" href="./styles.css?v=20261006-2">
@@ -16,7 +16,7 @@
       <img class="title-icon" src="./assets/icons/autonomous-driving.png" width="64" height="64" alt="">
       <h1>Supplementary Videos</h1>
     </div>
-    <p class="paper-title">HOCBF-Informed Constrained Reinforcement Learning with Adversarial Training for Unsignalized Intersection Navigation</p>
+    <p class="paper-title">HOCBF-Informed Constrained Reinforcement Learning with Adversarial Training for Robust Autonomous Driving</p>
     <div class="topic-line"><span><span aria-hidden="true">🚗</span> Autonomous navigation</span><span><span aria-hidden="true">🧠</span> Constrained reinforcement learning</span><span><span aria-hidden="true">🛡️</span> Control barrier functions</span><span><span aria-hidden="true">😈</span> Adversarial training</span></div>
   </header>
 
@@ -29,16 +29,16 @@
         <a href="#s2" aria-label="S2: Go straight to target lane 2">S2</a>
         <a href="#r1" aria-label="R1: Right turn to target lane 1">R1</a>
         <a href="#r2" aria-label="R2: Right turn to target lane 2">R2</a>
-        <a href="#uncertainty">Uncertainty</a>
-        <a href="#uncertainty-l1" aria-label="L1 under uncertainty: Left turn to target lane 1">L1</a>
-        <a href="#uncertainty-l2" aria-label="L2 under uncertainty: Left turn to target lane 2">L2</a>
+        <a href="#uncertainty">Perturbed State</a>
+        <a href="#uncertainty-l1" aria-label="L1 under perturbed state observations: Left turn to target lane 1">L1</a>
+        <a href="#uncertainty-l2" aria-label="L2 under perturbed state observations: Left turn to target lane 2">L2</a>
         <a href="#notation">Notation</a>
     </div>
   </nav>
 
   <main id="demonstrations">
     <header class="section-intro" id="ideal-state">
-      <h2>Evaluation under Ideal State Observability</h2>
+      <h2>Evaluation under Ideal State Observations</h2>
       <p>Six navigation tasks. Two cases per task. A comparison of longitudinal driving behavior<br class="desktop-break"> with and without the HOCBF-based safety filter.</p>
       <div class="method-legend">
         <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL</strong></span>
@@ -374,7 +374,7 @@
       </section>
 
       <header class="section-intro uncertainty-intro" id="uncertainty">
-        <h2>Evaluation under Perception or State-Estimation Uncertainty</h2>
+        <h2>Evaluation under Perturbed State Observations</h2>
         <p>Two left-turn navigation tasks. Two cases per task.<br class="desktop-break"> Evaluated with HC2RL-MC under truncated Gaussian noise perturbations.</p>
         <div class="method-legend">
           <span><i class="dot hc2rl-dot" aria-hidden="true"></i><strong>HC2RL-MC</strong></span>
